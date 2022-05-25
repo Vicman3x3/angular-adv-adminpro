@@ -11,6 +11,7 @@ import { ComponentsModule } from '../components/components.module';
 
 import { FormsModule } from '@angular/forms';
 
+
 @NgModule({
   declarations: [
     DashboardComponent,
@@ -23,7 +24,8 @@ import { FormsModule } from '@angular/forms';
     FormsModule,
     SharedModule,
     RouterModule,
-    ComponentsModule
+    ComponentsModule,
+    
   ],
   exports: [
     DashboardComponent,
