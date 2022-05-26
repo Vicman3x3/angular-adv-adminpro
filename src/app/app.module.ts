@@ -9,6 +9,7 @@ import { AuthModule } from './auth/auth.module';
 import { AppComponent } from './app.component';
 
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -16,13 +17,14 @@ import { NopagefoundComponent } from './nopagefound/nopagefound.component';
   declarations: [
     AppComponent,
     NopagefoundComponent,
-    
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     PagesModule,
-    AuthModule
+    AuthModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
